@@ -1,6 +1,6 @@
 package day25.practice2.BoardService9mvc;
 
-import day25.practice2.view.BoardView;
+import day25.practice2.BoardService9mvc.view.BoardView;
 
 public class AppStart {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package day25.practice2.view;
+package day25.practice2.BoardService9mvc.view;
 
 import day25.practice2.BoardService9mvc.controller.BoardController;
 import day25.practice2.BoardService9mvc.model.BoardDto;

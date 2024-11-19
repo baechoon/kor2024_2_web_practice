@@ -42,7 +42,7 @@ public class BoardDao {
         //try-catch
         try {
             //1. 파일 출력 객체 생성
-            FileOutputStream OutputStream = new FileOutputStream("./src/day25/BoardService9mvc.data.txt");
+            FileOutputStream OutputStream = new FileOutputStream("./src/day25/practice1/BoardService9mvc.data.txt");
             //2.파일 출력 객체를 이용한 바이트 쓰기/내보내기
             OutputStream.write(outStr.getBytes());
             //3.안내메세지
@@ -61,9 +61,9 @@ public class BoardDao {
     public void FileLoad() {
         try {
             //1. 파일 입력객체생성
-            FileInputStream inputStream = new FileInputStream("./src/day25/BoardService9mvc.data.txt");
+            FileInputStream inputStream = new FileInputStream("./src/day25/practice1/BoardService9mvc.data.txt");
             //2. 파일 용량만큼 바이트 배열 선언
-            File file = new File("./src/day25/BoardService9mvc.data.txt");
+            File file = new File("./src/day25/practice1/BoardService9mvc.data.txt");
             byte[] bytes = new byte[(int) file.length()];
             //3. 파일 읽어서 바이트 배열 저장
             inputStream.read(bytes);

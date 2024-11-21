@@ -28,9 +28,9 @@ public class TodoListView {
     void TodoListPrint(){
         ArrayList<TodoListDto>result=TodoListController.getInstance().TodoListPrint();
         for (int index=0;index< result.size();index++){
-            System.out.print("할일 내용"+result.get(index).getContent());
-            System.out.print("할일 마감일"+result.get(index).getDeadLine());
-            System.out.print("할일 진행도 "+result.get(index).getState());
+            System.out.print("할일 내용:"+result.get(index).getContent()+"\n");
+            System.out.print("할일 마감일"+result.get(index).getDeadLine()+"\n");
+            System.out.print("할일 진행도 "+result.get(index).getState()+"\n");
 
         }
     }
